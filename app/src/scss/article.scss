@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Ubuntu+Mono&display=swap');
-
 #main-container {
   max-width: 800px;
-  margin: 90px auto auto;
+  margin: auto;
+  margin-top: 90px;
 }
 
 #article-title {
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.6;
 }
 
 #article-subtitle {
@@ -21,16 +21,25 @@
   color: #C0C0C0;
 }
 
+#article-history {
+  font-size: 12px;
+
+  a {
+    color: #C0C0C0;
+    text-decoration: underline;
+  }
+}
+
 #article-content-container {
   margin-top: 30px;
 }
 
 #article-social-container {
-  margin-top: 40px;
+  margin-top: 30px;
   font-size: 10px;
 
   #fb-like {
-    top: -3px;
+    top: 5px;
   }
 }
 
@@ -40,6 +49,7 @@
 
   .article-navigation-item {
     margin-bottom: 25px;
+    line-height: 1.5;
   }
 
   .article-navigation-arrow {
@@ -98,9 +108,8 @@
 }
 
 #article-comments {
-  margin-top: 10px;
-
   .utterances {
+    max-width: 100%;
     margin: 0;
   }
 }
@@ -210,6 +219,7 @@
 
   sup {
     font-size: 11px;
+    line-height: 0;
   }
 
   details {
@@ -226,6 +236,7 @@
       cursor: pointer;
     }
   }
+
 
   .table-of-contents  {
     font-size: 15px;
@@ -246,10 +257,12 @@
         }
       }
     }
+
   }
 
   section {
     margin-bottom: 15px;
+    overflow: auto;
 
     .katex {
       * {
@@ -267,9 +280,9 @@
 
       .msupsub {
         * {
-          font-size: 11px;
-        }
+        font-size: 11px;
       }
+    }
     }
   }
 
@@ -289,6 +302,7 @@
       > .footnote-item {
         list-style-position: inherit;
         list-style: none;
+        margin: 2px;
 
         &:before {
           content: "[" counter(list) "] ";

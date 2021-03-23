@@ -1,13 +1,19 @@
-#main-emoji-container {
-  max-width: 350px;
-  width: 100%;
-}
+#articles-container {
+  margin-top: 30px;
 
-#main-emoji {
-  width: 100%;
-}
+  h2, h3 {
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+  }
 
-#github-heatmap {
-  width: 100%;
-  max-width: 800px;
+  h4 {
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  ul {
+    margin-top: 30px;
+  }
 }

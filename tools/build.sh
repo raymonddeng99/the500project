@@ -40,7 +40,8 @@ echo "> cp -r ./app/static/* ${DIST}/"
 cp -r ./app/static/* $DIST/
 
 echo -e "\n${GREEN}Run parcel...${WHITE}"
-echo -e "> parcel build ./app/public/index.html -d ${DIST}\n"
-parcel build ./app/public/index.html -d $DIST
+echo -e "> parcel build ./app/public/index.html --public-path ./ -d ${DIST}\n"
+parcel build ./app/public/index.html --public-url ./ -d $DIST 
+python3 tools/path_replacer.py
 
 echo -e "\n${CYAN}Done!${WHITE}"
