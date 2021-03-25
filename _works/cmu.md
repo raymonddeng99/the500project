@@ -1,7 +1,7 @@
 ---
 title: "CMU 15-721"
 subtitle: "Advanced Database Systems"
-thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/cmu.png"
+thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/cmudb.jpeg"
 ---
 
 ![](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/pittsburgh.jpg)
