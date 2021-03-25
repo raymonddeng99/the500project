@@ -19,6 +19,8 @@ echo -e "> [-d ${PUBLIC_ARTICLE} ] || mkdir ${PUBLIC_ARTICLE}"
 echo -e "> [-d ${PUBLIC_WORK} ] || mkdir ${PUBLIC_WORK}\n"
 [ -d $PUBLIC_WORK ] || mkdir $PUBLIC_WORK
 
+rm -rf $DIST
+
 echo -e "${GREEN}Create ${DIST} directory if it does not exist...${WHITE}"
 echo -e "> [-d ${DIST} ] || mkdir ${DIST}\n"
 [ -d $DIST ] || mkdir $DIST
