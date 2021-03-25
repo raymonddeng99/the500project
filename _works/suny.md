@@ -1,7 +1,7 @@
 ---
-title: "Murat's Foundational Distributed Systems Papers"
+title: "Murat Foundational Papers"
 subtitle: "Foundational Distributed Systems Papers"
-thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/suny_buffalo.jpeg"
+thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/sunybuffalo.jpeg"
 ---
 
 ![](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/nyc.jpg)
