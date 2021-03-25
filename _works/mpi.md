@@ -4,7 +4,7 @@ subtitle: "Type Theory"
 thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/mpisws.png"
 ---
 
-![Photo by Alice Donovan Rouse](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/germany.jpg)
+![](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/germany.jpg)
 
 
 _**Parametricity and Modular Reasoning Papers**_
