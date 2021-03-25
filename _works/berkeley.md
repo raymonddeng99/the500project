@@ -4,7 +4,7 @@ subtitle: "AI For Systems and Systems For AI"
 thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/berkeley.png"
 ---
 
-![Photo by Alice Donovan Rouse](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/norcal.jpg)
+![](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/norcal.jpg)
 
 
 _**Papers**_

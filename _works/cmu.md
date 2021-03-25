@@ -4,7 +4,7 @@ subtitle: "Advanced Database Systems"
 thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/cmu.png"
 ---
 
-![Photo by Alice Donovan Rouse](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/pittsburgh.jpg)
+![](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/pittsburgh.jpg)
 
 
 _**Papers**_

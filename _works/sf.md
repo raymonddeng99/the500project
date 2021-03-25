@@ -4,7 +4,7 @@ subtitle: "Advanced Topics in Operating Systems"
 thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/stanford.png"
 ---
 
-![Photo by Alice Donovan Rouse](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/stanford_work.jpg)
+![](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/stanford_work.jpg)
 
 
 _**Papers**_
