@@ -4,7 +4,7 @@ subtitle: "Distributed Systems"
 thumbnail: "https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/mit.jpeg"
 ---
 
-![Photo by Alice Donovan Rouse](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/mit_work.jpg)
+![Photo by Alice Donovan Rouse](https://raw.githubusercontent.com/raymonddeng99/the500project/master/app/assets/boston.jpg)
 
 _**Papers**_
 
