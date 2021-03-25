@@ -28,6 +28,10 @@ class ArticlePublisher {
   // A path of the article template file.
   static ARTICLE_TEMPLATE: Buffer = fs.readFileSync(path.join(__dirname, '../app/templates/article.ejs'));
 
+  static INDEX_DIST_PATH: string = path.join(__dirname, '../app/public');
+
+  static INDEX_TEMPLATE: Buffer = fs.readFileSync(path.join(__dirname, '../app/templates/index.ejs'));
+
   static IGNORED_FILES: string[] = ['.DS_Store'];
 
   static md: MarkdownIt = new MarkdownIt({
@@ -192,6 +196,7 @@ class ArticlePublisher {
     });
 
     PagePublisher.publishArticles(distArticles);
+    PagePublisher.publishIndex(distArticles.slice(0, 5).reverse());
   }
 }
 

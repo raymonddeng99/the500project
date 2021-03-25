@@ -10,12 +10,12 @@ class PagePublisher {
   /**
    * Builds `index` page template file.
    */
-  public static publishIndex() {
+  public static publishIndex(articles: ArticleModel[]) {
     const TEMPLATE: Buffer = fs.readFileSync(path.join(__dirname, '../app/templates/index.ejs'));
     const DIST_PATH: string = path.join(__dirname, '../app/public/index.html');
     const { blogTitle } = PagePublisher.config;
 
-    fs.writeFileSync(DIST_PATH, ejs.render(String(TEMPLATE), { blogTitle }));
+    fs.writeFileSync(DIST_PATH, ejs.render(String(TEMPLATE), { blogTitle, articles }));
   }
 
   /**
