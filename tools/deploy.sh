@@ -28,9 +28,13 @@ if [[ $(git status -s) == "" ]]; then
     sed -i"" "/$DIST/d" ./.gitignore
   fi
 
+  echo -e "Add CNAME file"
+  echo "www.the500project.com" > dist/CNAME
+
   echo -e "\n${GREEN}Stage and commit the all files...${WHITE}"
   echo "> git add ."
   git add .
+
   echo "> git commit -m \"dist: ${DATE}\""
   git commit -m "dist: $DATE"
 
