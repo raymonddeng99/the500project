@@ -29,7 +29,7 @@ if [[ $(git status -s) == "" ]]; then
   fi
 
   echo -e "Add CNAME file"
-  echo "www.the500project.com" > dist/CNAME
+  echo "the500project.com" > dist/CNAME
 
   echo -e "\n${GREEN}Stage and commit the all files...${WHITE}"
   echo "> git add ."
