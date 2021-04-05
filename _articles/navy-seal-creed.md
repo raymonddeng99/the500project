@@ -8,7 +8,7 @@ tags: "Nontech"
 
 I've been listening to Jocko Willink's podcast and found a lot of inspiration in the conversations he's had with other Navy SEALS. I was surprised at how powerful and moving the Navy SEAL creed is when I read it for the first time. I figured it's worth sharing since this'll also be the first time for many to read it.
 
-We're not Marine soldiers, but take the time to read it.
+We're not Marine soldiers, but it's a worthwhile read.
 
 ![dummy image](https://images.unsplash.com/photo-1614604825867-5b7ff8c4f6c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80)
 
